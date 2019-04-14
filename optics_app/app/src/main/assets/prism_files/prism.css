@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/** This shrinks the loading screen for smaller tutorials. 
+    May need to play around with the value per each tutorial **/
+.splashBackground {
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+}
+
+.mainscene {
+    
+    height: 335px;
+    text-align: center;
+}
+
+.mainWindow > *{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.diagramTextBlack {
+    display: inline-block;
+    position: relative;
+}
+
+.mainWindow {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    width: 250px;
+    height; 180px;
+}
+
+#prismContainer {
+    width: 210px; height: 183px;
+}
+
+#prismImg {
+    position: absolute;
+    left: 0px; top: 0px;
+    width: 210px; height: 183px;
+}
+
+#beamCan {
+    position: absolute;
+    left: -22px; top: 0px;
+    width: 251px; height: 174px;
+}
+
+#lblsContainer {
+    position: absolute;
+}
+
+#lblsContainer div:nth-child(1) {
+    left: -15px; top: 0px;
+}
+
+#lblsContainer div:nth-child(2) {
+    left: 18px; top: 6px;
+}
+
+#lblsContainer div:nth-child(3) {
+    left: -90px; top: 73px;
+}
+
+#lblsContainer div:nth-child(4) {
+    left: -105px; top: 15px;
+}
+
+#lblsContainer div:nth-child(5) {
+    left: 140px; top: -15px;
+}
+
+#lblsContainer div:nth-child(6) {
+    left: 65px; top: 0px;
+}
+
+.controlPanelBack {
+    display: inline-block;
+    margin: 6px;
+    padding: 6px;
+}
+
+#beamSldr,
+#angleSldr {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+}

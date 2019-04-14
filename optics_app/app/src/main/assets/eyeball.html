@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)https://lsmicro.olympus-lifescience.com/data/olympusmicro/htmltutorials/source/-v2/tutorials/eyeball/eyeball.html?rev=F051 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./eyeball_files/OlyUtil.css">
+    <link rel="stylesheet" type="text/css" href="./eyeball_files/eyeball.css">
+
+</head>
+
+<body>
+
+	<div class="mainscene" style="background: lightblue; height: 600px">
+
+	    <canvas id="tutorialTitle" width="1340" height="26" style="width: 1340px; height: 26px; margin: 13px auto; display: block;">Human Vision</canvas>
+
+		<div id="whiteBkgd" class="whiteWindow" style="margin-left: 150px">
+			<div id="contentContain">
+				<img id="eyeImg" height="150px" width="170px" src="./eyeball_files/eyeball2x.png">
+				<img id="invButterfly" height="50px" width="28px" src="./eyeball_files/butterfly2xInverted.png" style="transform: scale(1, 1.1);">
+				<img id="lens" height="47px" width="23px" src="./eyeball_files/lens2x.png" style="transform: scale(0.83, 1);">
+				
+				<canvas id="lineCanvas" width="316" height="80" style="width: 316px; height: 80px;"></canvas>
+				<canvas id="diagramLineCanvas" width="45" height="125" style="width: 45px; height: 125px;"></canvas>
+
+				<div id="suspLigText" class="diagramTextBlack">Suspensory Ligament</div>
+				<div id="lensText" class="diagramTextBlack">Lens</div>
+
+				<div id="slidingDiv">
+					<div id="objectText" class="diagramTextBlack" style="transform: translate(70px, 0px);">Object</div>
+					<img id="butterfly" height="53px" width="63px" src="./eyeball_files/butterfly2x.png" style="transform: translate(70px, 0px);">
+				</div>
+				
+				
+
+			</div>
+		</div>
+
+	    <div class="controlBack">
+	    	<div class="controlPanelBack">
+	    		<label class="controlPanelText">Object Position</label>
+	    		<div id="slider" class="slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(75px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+	    	</div>
+	    </div>
+
+	    <div id="splashContainer" style="visibility: hidden; opacity: 0;"><div class="splashAnimationContainer"><canvas width="1340" height="100" style="width: 1340px; height: 100px;"></canvas><img class="splashLogoImage" src="./eyeball_files/tutorial-logo.png" style="left: 520px; opacity: 1; clip: rect(-0.5px, 300px, 63.5px, 0px);"><div class="splashLoadingBarBorder" style="opacity: 1;"><div class="splashLoadingBar" style="opacity: 1; width: 100%;"></div></div><div class="splashLoadingText" style="opacity: 1;">Loaded: 100%</div></div></div>
+	</div>
+    
+    <script type="text/javascript" src="./eyeball_files/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./eyeball_files/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./eyeball_files/EasePack.min.js"></script>
+    <script type="text/javascript" src="./eyeball_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./eyeball_files/OlyUtil.js"></script>
+    <script type="text/javascript" src="./eyeball_files/eyeball.js"></script>
+
+</body></html>

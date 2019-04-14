@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="./concavemirrors_files/OlyUtil.css">
+    <link rel="stylesheet" type="text/css" href="./concavemirrors_files/concavemirrors.css">
+</head>
+
+<body>
+    <div class="mainscene" style="background: lightblue; height: 600px">
+        <canvas id="tutorialTitle" width="427" height="26" style="width: 427px; height: 26px; margin: 13px auto; display: block;">Concave Spherical Mirrors</canvas>
+
+        <div class="specimenWindow whiteWindow">
+
+            <img  id="concaveMirror" src="./concavemirrors_files/concave.jpg">
+            <canvas id="lineCanvas" class="micCanvas" width="350" height="222" style="width: 350px; height: 222px;"></canvas>
+            <canvas id="aniCanvas" class="micCanvas" width="350" height="222" style="width: 350px; height: 222px;"></canvas>
+            <div id="centerCurv" class="diagramTextBlack">Center of<br>Curvature</div>
+            <div id="focalPt" class="diagramTextBlack">Focal<br>Point</div>
+            <div id="principalAxis" class="diagramTextBlack">Principal Axis</div>
+            <div id="concaveLbl" class="diagramTextBlack">Concave<br>Mirror</div>
+            <div id="realImgLbl" class="diagramTextBlack anilabels" style="visibility: visible; left: 43.6667px; top: 139.333px;">Real Image</div>
+            <div id="virtualImgLbl" class="diagramTextBlack" style="visibility: hidden;">Virtual Image</div>
+            <div id="objectLbl" class="diagramTextBlack anilabels" style="left: 90.5px; top: 54px;">Object</div>
+        </div>
+
+        <div class="controlBack">
+            <div class="controlPanelBack">
+                <div class="controlText">Object Position</div>
+                <div id="sldr" class="slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(55px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+            </div>
+        </div>
+
+        <div id="splashContainer" style="visibility: hidden; opacity: 0;"><div class="splashAnimationContainer"><canvas width="427" height="100" style="width: 427px; height: 100px;"></canvas><img class="splashLogoImage" src="./concavemirrors_files/tutorial-logo.png" style="left: 63.5px; opacity: 1; clip: rect(-0.5px, 300px, 63.5px, 0px);"><div class="splashLoadingBarBorder" style="opacity: 1;"><div class="splashLoadingBar" style="opacity: 1; width: 100%;"></div></div><div class="splashLoadingText" style="opacity: 1;">Loaded: 100%</div></div></div>
+    </div>
+
+    <script type="text/javascript" src="./concavemirrors_files/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./concavemirrors_files/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./concavemirrors_files/EasePack.min.js"></script>
+    <script type="text/javascript" src="./concavemirrors_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./concavemirrors_files/OlyUtil.js"></script>
+    <script type="text/javascript" src="./concavemirrors_files/concavemirrors.js"></script>
+
+
+</body></html>

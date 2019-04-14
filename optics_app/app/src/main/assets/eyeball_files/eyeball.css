@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+    height: 370px;
+    text-align: center;
+}
+
+#whiteBkgd{
+    position: absolute;
+    left:21px;
+    top:50px;
+    height: 225px;
+    width: 425px;
+}
+
+#contentContain{
+    position: absolute;
+    height: 225px;
+    width: 425px;
+    top:2px;
+    left:-6px;
+}
+
+#eyeImg{
+    position: absolute;
+    left:248px;
+    top:37px;
+}
+
+#invButterfly {
+    position: absolute;
+    left:360px;
+    top:84px;
+}
+
+#lens {
+    position: absolute;
+    left:270px;
+    top:91px;
+    width: 23px;
+    height: 47px;
+}
+
+#slidingDiv {
+    position: absolute;
+    height:70px;
+    width:203px;
+    top:64px;
+    left:18px;
+    /*border*/:solid 1px black;
+}
+
+#objectText{
+    position: absolute;
+    left:12px;
+    width:36px;
+}
+
+#butterfly{
+    position: absolute;
+    top:20px;
+    left:0px;
+}
+
+#lineCanvas {
+	width:316px;
+	height:80px;
+	position:absolute;
+	left:68px;
+	top:70px;
+}
+
+#diagramLineCanvas {
+    width:45px;
+    height:125px;
+    position:absolute;
+    left:245px;
+    top:50px;
+}
+
+
+#suspLigText {
+    position: absolute;
+    top:35px;
+    left:200px;
+    width: 75px;
+}
+
+#lensText {
+    position: absolute;
+    top:165px;
+    left:212px;
+    width:50px;
+}
+
+.controlBack {
+	height: 65px;
+}
+
+.controlPanelBack {
+	background:white;
+	display: inline-block;
+	height: 55px;
+	margin-top: 5px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#slider {
+	display: inline-block;
+	position: relative;	
+	width: 160px;
+	margin-top: 5px;
+}

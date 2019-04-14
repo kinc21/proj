@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+body {
+     height: 475px;
+    text-align: center;
+}
+
+.whiteWindow {
+	 height: 47%;
+	position: relative;
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.whiteWindow > *{
+	position: relative;
+	display: inline-block;
+	top: 10px;
+	vertical-align: middle;
+}
+
+#waveContainer {
+    left: 3px; top: 11px;
+    width: 170px; height: 197px;
+    border-right: 2px solid black;
+}
+
+#waveACan,
+#waveBCan {
+    position: relative;
+    width: 170px; height: 97px;
+    left: 1px;
+}
+
+#dividingLine {
+    position: relative;
+    width: 170px; height: 2px;
+    background-color: black;
+}
+
+#resultWaveCan {
+    left: -1px;
+    width: 169px; height: 197px;
+}
+
+#lblContainer {
+    position: absolute;
+    left: 25px; top: 10px;
+}
+
+.diagramTextBlack {
+    position: relative;
+}
+
+#waveBLbl {
+    top: 90px;
+}
+
+#resultWaveLbl {
+    left: 185px; top: -24px;
+}
+
+.controlBack {
+	padding-bottom: 5px;
+}
+
+.controlBack > * {
+	vertical-align: middle;
+}
+
+.controlPanelBack {
+	display: inline-block;
+	height: 70px;
+	margin-top: 5px;
+	padding: 0 10px;
+}
+
+.controlPanelBack > div {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    width: 124px;
+    margin: 2px 8px 0px;
+}
+
+.controlPanelText {
+    margin-bottom: 0;
+}
+
+.waveABack {
+    margin-bottom: 0;
+}
+
+.ampSldrLbl {
+    width: 140px;
+}
+
+.sldr {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+}
+
+.waveBBack {
+    margin-top: 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0151)https://lsmicro.olympus-lifescience.com/data/olympusmicro/htmltutorials/source/-v2/tutorials/reflection/reflectionangles/reflectionangles.html?rev=16EC -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./reflectionangles_files/OlyUtil.css">
+    <link rel="stylesheet" type="text/css" href="./reflectionangles_files/reflectionangles.css">
+
+</head>
+
+<body>
+
+    <div class="mainscene" style="background: lightblue; height: 600px">
+
+        <canvas id="tutorialTitle" width="442" height="26" style="width: 442px; height: 26px; margin: 13px auto; display: block;">Reflection of Light</canvas>
+
+        <div class="specimenWindow whiteWindow">
+
+            <img id="mirror" src="./reflectionangles_files/mirror.jpg">
+            <canvas id="waveCanvas" width="348" height="248" style="width: 348px; height: 248px;"></canvas>
+            <img id="halfmirror" src="./reflectionangles_files/halfmirror.jpg">
+            <div id="normalToSurface" class="controlText" style="visibility: visible; left: 105px; top: 10px;">Normal to<br>Surface</div>
+            <div id="incidentAngle" class="controlText" style="top: 160px;">Incident<br>Angle = 50°</div>
+            <div id="reflectedAngle" class="controlText" style="top: 160px;">Reflected<br>Angle = 50°</div>
+
+            <div id="equationSteps" class="controlText">(n = refractive index, Θ = angle)<br>
+            (Because n = n in a reflection...) <br>(The n's cancel...)<br>(Leaving Θ(i) = Θ(r))</div>
+        </div>
+
+        <div id="equationReadOut" class="controlText">n sin Θ(i) = n sin Θ(r) <br>n sin 50° = n sin Θ(r)<br>sin 50° = sin Θ(r) <br>50° = Θ(r)</div>
+
+        <div class="controlBack">
+            <div class="controlPanelBack">
+                <label id="wavelengthReadOut" class="controlText">Wavelength: 700 nm</label>
+                <div id="wavelengthSlider" class="slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div><canvas width="138" height="5" class="sliderTrackThresh" style="width: 138px; height: 5px;"></canvas></div><div class="sliderHandleBorder" style="transform: translateX(138px);"><div class="sliderHandleFill sliderHandleFillUp"></div><canvas width="6" height="24" class="sliderHandleFill sliderHandleSpectrumCanvas" style="width: 6px; height: 24px;"></canvas></div></div>
+            </div>
+            <div class="controlPanelBack">
+                <label id="angleReadOut" class="controlText">Incident Angle: 50°</label>
+                <div id="angleSlider" class="slider"><div class="sliderTrack webkitMaskOverflowFix" style="background: rgb(255, 0, 0);"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(51px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+            </div>
+
+        </div>
+
+        <div id="splashContainer" style="visibility: hidden; opacity: 0;"><div class="splashAnimationContainer"><canvas width="442" height="100" style="width: 442px; height: 100px;"></canvas><img class="splashLogoImage" src="./reflectionangles_files/tutorial-logo.png" style="left: 71px; opacity: 1; clip: rect(-0.5px, 300px, 63.5px, 0px);"><div class="splashLoadingBarBorder" style="opacity: 1;"><div class="splashLoadingBar" style="opacity: 1; width: 100%;"></div></div><div class="splashLoadingText" style="opacity: 1;">Loaded: 100%</div></div></div>
+    </div>
+
+    <script type="text/javascript" src="./reflectionangles_files/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./reflectionangles_files/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./reflectionangles_files/EasePack.min.js"></script>
+    <script type="text/javascript" src="./reflectionangles_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./reflectionangles_files/OlyUtil.js"></script>
+    <script type="text/javascript" src="./reflectionangles_files/reflectionangles.js"></script>
+
+
+</body></html>

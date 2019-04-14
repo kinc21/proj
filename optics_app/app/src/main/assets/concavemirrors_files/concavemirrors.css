@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.mainscene{
+    width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+    height: 600px;
+    text-align: center;
+}
+.specimenWindow{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width:350px;
+    height:222px;
+    padding: 4px;
+}
+#concaveMirror{
+    position: absolute;
+    left: 167px;
+    top: 22px;
+}
+.micCanvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: inherit;
+    width: inherit;
+}
+#textContainer > *{
+    margin: 5px 0;
+}
+
+#specimenExample{
+    top: 15px;
+}
+
+#specimenContent{
+    display: block;
+    background: #000;
+    width: 200px; height: 200px;
+}
+
+.controlPanelBack {
+    display: inline-block;
+    margin: 6px;
+    padding: 6px;
+}
+
+#sldr{
+    display: inline-block;
+    position: relative;
+    width: 120px;
+}
+
+#centerCurv{
+    position: absolute;
+    left: 42px;
+    top: 14px;
+}
+
+#focalPt{
+    position: absolute;
+    left: 115px;
+    top: 14px;
+}
+
+#principalAxis{
+    position: absolute;
+    left: 220px;
+    top: 116px;
+}
+
+#concaveLbl{
+    position: absolute;
+    left: 112px;
+    top: 186px;
+}
+.anilabels{
+    position: absolute;
+    /* background: white; */
+    background: rgba(255, 255, 255, .6);
+    left:0;
+    top:0;
+}
+
+#tutorialTitle {
+    margin-bottom: 9px !important;
+}
+

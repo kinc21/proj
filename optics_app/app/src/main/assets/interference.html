@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0132)https://lsmicro.olympus-lifescience.com/data/olympusmicro/htmltutorials/source/-v2/tutorials/interference/interference.html?rev=898D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="./interference_files/OlyUtil.css">
+    <link rel="stylesheet" type="text/css" href="./interference_files/interference.css">
+
+</head>
+
+<body>
+
+    <div class="mainscene" style="background: lightblue; height: 600px">
+
+        <canvas id="tutorialTitle" width="455" height="26" style="width: 455px; height: 26px; margin: 13px auto; display: block;">Optical Interference</canvas>
+
+        <div class="whiteWindow">
+            <div id="waveContainer">
+                <canvas id="waveACan" width="170" height="97" style="width: 170px; height: 97px;"></canvas>
+                <div id="dividingLine"></div>
+                <canvas id="waveBCan" width="170" height="97" style="width: 170px; height: 97px;"></canvas>
+            </div>
+
+            <canvas id="resultWaveCan" width="169" height="197" style="width: 169px; height: 197px;"></canvas>
+
+            <div id="lblContainer">
+                <div id="waveALbl" class="diagramTextBlack">Wave A</div>
+                <div id="waveBLbl" class="diagramTextBlack">Wave B</div>
+                <div id="resultWaveLbl" class="diagramTextBlack">Wave A + B<br>(Resultant)</div>
+            </div>
+        </div>
+
+        <div class="controlBack">
+            <div class="controlPanelBack">
+                <label class="controlPanelText">Wave A</label>
+                <div>
+                    <div id="ampSldrALbl" class="controlPanelText ampSldrLbl">Amplitude: 62 candela</div>
+                    <div id="ampSldrA" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(69px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+                </div>
+
+                <div>
+                    <div id="waveSldrALbl" class="controlPanelText">Wavelength: 700 nm</div>
+                    <div id="waveSldrA" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div><canvas width="110" height="5" style="position: absolute; left: 0px; top: 0px; width: 110px; height: 5px;"></canvas></div><div class="sliderHandleBorder" style="transform: translateX(110px);"><div class="sliderHandleFill sliderHandleFillUp" style="background: rgb(255, 0, 0);"></div></div></div>
+                </div>
+                
+                <div>
+                    <div id="phaseSldrALbl" class="controlPanelText">Phase Shift: 360°</div>
+                    <div id="phaseSldrA" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(110px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+                </div>
+            </div>
+
+            <div class="controlPanelBack">
+                <label class="controlPanelText">Wave B</label>
+                <div>
+                    <div id="ampSldrBLbl" class="controlPanelText ampSldrLbl">Amplitude: 62 candela</div>
+                    <div id="ampSldrB" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(69px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+                </div>
+
+                <div>
+                    <div id="waveSldrBLbl" class="controlPanelText">Wavelength: 700 nm</div>
+                    <div id="waveSldrB" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div><canvas width="110" height="5" style="position: absolute; left: 0px; top: 0px; width: 110px; height: 5px;"></canvas></div><div class="sliderHandleBorder" style="transform: translateX(110px);"><div class="sliderHandleFill sliderHandleFillUp" style="background: rgb(255, 0, 0);"></div></div></div>
+                </div>
+
+                <div>
+                    <div id="phaseSldrBLbl" class="controlPanelText">Phase Shift: 234°</div>
+                    <div id="phaseSldrB" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(72px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="splashContainer" style="visibility: hidden; opacity: 0;"><div class="splashAnimationContainer"><canvas width="455" height="100" style="width: 455px; height: 100px;"></canvas><img class="splashLogoImage" src="./interference_files/tutorial-logo.png" style="left: 77.5px; opacity: 1; clip: rect(-0.5px, 300px, 63.5px, 0px);"><div class="splashLoadingBarBorder" style="opacity: 1;"><div class="splashLoadingBar" style="opacity: 1; width: 100%;"></div></div><div class="splashLoadingText" style="opacity: 1;">Loaded: 100%</div></div></div>
+    </div>
+
+    <script type="text/javascript" src="./interference_files/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./interference_files/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./interference_files/EasePack.min.js"></script>
+    <script type="text/javascript" src="./interference_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./interference_files/OlyUtil.js"></script>
+    <script type="text/javascript" src="./interference_files/interference.js"></script>
+
+</body></html>

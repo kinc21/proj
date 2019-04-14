@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+.mainscene{
+    width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+    height: 600px;
+    text-align: center;
+}
+
+.specimenWindow{
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    width: 340px;
+    height: 240px;
+    padding: 4px;
+    margin-top: -4px;
+
+    /* background: white; */
+    /* border: none; */
+    /* box-shadow: none; */
+    /* -webkit-appearance: none; */
+}
+
+.diagramTextWhite{
+    display: block;
+}
+
+.controlPanelBack{
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    margin: 6px;
+    padding: 6px;
+}
+
+.slider{
+    display: inline-block;
+    position: relative;
+    width: 148px;
+}
+
+
+#waveCanvas{
+    position: absolute;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#mirror{
+    position: absolute;
+    width: 152px;
+    height: 54px;
+    left: 94px;
+    top: 186px;
+}
+#halfmirror{
+    position: absolute;
+    width:152px;
+    height:33px;
+    left: 94px;
+    top: 207px;
+}
+#equationReadOut{
+    position: absolute;
+    text-align: center;
+    line-height: 2;
+    top:307px;
+    left:75px;
+}
+#equationSteps{
+    position: absolute;
+    text-align: left;
+    line-height: 2;
+    top: 259px;
+    left: 180px;
+    width: 190px;
+}
+#normalToSurface{
+    position: absolute;
+}
+
+#incidentAngle{
+    position: absolute;
+}
+
+#reflectedAngle{
+    position: absolute;
+    left:272px;
+
+}

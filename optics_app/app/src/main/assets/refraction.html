@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0102)https://lsmicro.olympus-lifescience.com/htmltutorials/source/scienceopticsu/refraction/refraction.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./css/MicUtil.css">
+    <link rel="stylesheet" type="text/css" href="./css/refraction.css">
+
+</head>
+
+<body style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+    <div class="mainscene" style="background: lightblue; height: 600px">
+        <div class="tutorialTitle">Refraction of Light</div>
+
+
+        <div class="mainWindow2">
+            <div id="materialBack" style="background-color: rgb(207, 207, 207);"></div>
+            <div id="topWaveContainer" style="height: 130px;">
+                <canvas id="waveCan" width="300" height="280" style="width: 300px; height: 280px;"></canvas>
+            </div>
+            <canvas id="bottomWaveCan" width="300" height="149" style="width: 300px; height: 149px;"></canvas>
+
+            <div id="axisContainer">
+                <div class="vertLine"></div>
+                <div class="horizLine"></div>
+            </div>
+
+            <div id="lblContainer">
+			<div id="refractDegLbl" class="labelText"style=" left: 160px; top: 10px;">angle from<br>33.39° To 33.91°</div>
+                <div id="incidentThetaLbl" class="labelText" style="left: 124px; top: 0px;">θ(i)</div>
+               
+                <div id="refractThetaLbl" class="labelText" style="visibility: hidden; left: 120px; top: 115px;">θ(r)</div>
+                
+            </div>
+        </div>
+
+        <div class="controlBackContainer">
+
+            <div class="controlBack">
+                <div id="waveSldrLbl" class="controlText">Wavelength: 550 nm</div>
+                <div id="waveSldr" class="slider" style="cursor: default; opacity: 0.5;"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div><canvas width="116" height="2" class="sliderTrackThresh" style="position: relative; top: -14px;"></canvas></div><div class="sliderHandleBorder" style="transform: translateX(54px);"><div class="sliderHandleFill sliderHandleFillUp"></div><canvas width="8" height="22" class="sliderHandleFill sliderHandleSpectrumCanvas"></canvas></div></div>
+            </div>
+
+            <div class="controlBack">
+                <div id="angleSldrLbl" class="controlText">Incident Angle - θ(i): 58°</div>
+                <div id="angleSldr" class="slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(30px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+            </div>
+
+            <div id="segBack" class="controlBack">
+                <div class="controlText">Type of Light</div>
+                <div id="lightSeg" class="radioGroup webkitMaskOverflowFix"><div class="radioButton horizontalRadioGroup radioButtonSelected"><div>White Light</div></div><div class="radioButton horizontalRadioGroup"><div>Mono</div></div></div>
+            </div>
+
+            <div id="cbBack" class="controlBack">
+                <div class="controlText">Choose A Material (RI)</div>
+                <select id="mediumCB">
+                    <option>Vacuum - 1.0000</option>
+                    <option>Air - 1.0002</option>
+                    <option>Ice - 1.3090</option>
+                    <option>Alcohol - 1.3290</option>
+                    <option>Water - 1.3330</option>
+                    <option>Glycerin - 1.4700</option>
+                    <option>Crown Glass - 1.5200</option>
+                    <option>Zircon - 1.9200</option>
+                    <option>Diamond - 2.4170</option>
+                    <option>Lead Sulfide - 3.9120</option>
+                </select>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./js/CSSPlugin.min.js"></script>  
+    <script type="text/javascript" src="./js/EasePack.min.js"></script>
+    <script type="text/javascript" src="./js/MicUtil.js"></script>
+    <script type="text/javascript" src="./js/refraction.js"></script>
+
+</body></html>

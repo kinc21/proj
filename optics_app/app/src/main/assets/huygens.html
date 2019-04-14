@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0133)https://lsmicro.olympus-lifescience.com/data/olympusmicro/htmltutorials/source/-v2/tutorials/reflection/huygens/huygens.html?rev=16EC -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./huygens_files/OlyUtil.css">
+    <link rel="stylesheet" type="text/css" href="./huygens_files/huygens.css">
+
+</head>
+
+<body>
+
+	<div class="mainscene" style="background: lightblue; height: 600px">
+
+	    <canvas id="tutorialTitle" width="1910" height="26" style="width: 1910px; height: 26px; margin: 13px auto; display: block;">Reflection and Refraction with Huygens Wavelets</canvas>
+
+	    <div class="animationContainer">
+	    	<canvas id="waveCanBG" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+	    	<canvas id="waveCanTop" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+	    	<canvas id="waveCanBottom" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+	    	<canvas id="gr" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+	    	<canvas id="grid" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+	    </div>
+
+	    <div class="sliderContainer">
+	    	<div id="lblIndex1" class="diagramTextWhite sldrLabel">Refractive Index<br>(Medium 1): 1.00</div>
+	    	<div id="sldrIndex1" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(0px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+	    	<div id="lblIndex2" class="diagramTextWhite sldrLabel">Refractive Index<br>(Medium 2): 1.51</div>
+	    	<div id="sldrIndex2" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(46px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+	    	<div id="lblAngle" class="diagramTextWhite sldrLabel">Incident Angle:<br>45°</div>
+	    	<div id="sldrAngle" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(68px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+	    	<div id="lblSpeed" class="diagramTextWhite sldrLabel">Applet Speed:<br>50%</div>
+	    	<div id="sldrSpeed" class="sldr slider"><div class="sliderTrack webkitMaskOverflowFix"><div class="sliderTrackThresh"></div></div><div class="sliderHandleBorder" style="transform: translateX(45px);"><div class="sliderHandleFill sliderHandleFillUp"></div></div></div>
+	    </div>
+
+	    <div class="diagramLblContainer">
+	    	<div id="refIndLbl1" class="diagramTextBlack">RI = 1.00</div>
+	    	<div id="medLbl1" class="diagramTextBlack">Medium 1</div>
+	    	<div id="refIndLbl2" class="diagramTextBlack">RI = 1.51</div>
+	    	<div id="medLbl2" class="diagramTextBlack">Medium 2</div>
+	    	<div id="refAngLbl" class="diagramTextBlack">Angle of<br>Refraction<br>28°</div>
+	    </div>
+
+	    <div id="splashContainer" style="visibility: hidden; opacity: 0;"><div class="splashAnimationContainer"><canvas width="1910" height="100" style="width: 1910px; height: 100px;"></canvas><img class="splashLogoImage" src="./huygens_files/tutorial-logo.png" style="left: 805px; opacity: 1; clip: rect(-0.5px, 300px, 63.5px, 0px);"><div class="splashLoadingBarBorder" style="opacity: 1;"><div class="splashLoadingBar" style="opacity: 1; width: 100%;"></div></div><div class="splashLoadingText" style="opacity: 1;">Loaded: 100%</div></div></div>
+	</div>
+    
+    <script type="text/javascript" src="./huygens_files/TweenLite.min.js"></script>
+    <script type="text/javascript" src="./huygens_files/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./huygens_files/EasePack.min.js"></script>
+    <script type="text/javascript" src="./huygens_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./huygens_files/OlyUtil.js"></script>
+    <script type="text/javascript" src="./huygens_files/wave.js"></script>
+    <script type="text/javascript" src="./huygens_files/huygens.js"></script>
+
+</body></html>

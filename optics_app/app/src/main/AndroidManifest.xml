@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lib.optics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="OPTICS TUTOR"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--Main Activity-->
+        <activity android:name="com.lib.optics.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Language Activities-->
+        <activity
+            android:name="com.lib.optics.Animation.Animation_Activity"
+            android:label="Animation"
+            android:parentActivityName="com.lib.optics.MainActivity"/>
+        <activity
+            android:name="com.lib.optics.Optics_Knowledge.Knowledge_Activity"
+            android:label="Optics basic knowledge"
+            android:parentActivityName="com.lib.optics.MainActivity"/>
+        <activity
+            android:name="com.lib.optics.Exercise_1.Ex1_Activity"
+            android:label="Exercise I"
+            android:parentActivityName="com.lib.optics.MainActivity"/>
+
+        <activity
+            android:name="com.lib.optics.Exercise_2.Ex2_Activity"
+            android:label="Exercise II"
+            android:parentActivityName="com.lib.optics.MainActivity"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,389 @@
+/******** GENERAL STYLES ********/
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+	margin:0px;
+    padding:0px;
+    text-align: justify;
+    height: 100%;
+    }
+a {
+	color: #000 ;
+	font: 1em 'Century Gothic', Verdana, Calibri, serif;
+	line-height: 1em ;
+	text-decoration: none ;
+}
+a:hover {
+	color: #f40 ;
+	font: 1em 'Century Gothic', Verdana, Calibri, serif;
+	line-height: 1em ;
+	text-decoration: none ;
+}
+.mille{
+width:1000px; 
+margin: 0 auto;
+position:relative; 
+height:auto;
+}
+.mille .cellule{
+	vertical-align: top;
+	width:30%;
+	padding: 15px;
+	border-collapse: collapse;
+	background-color: #005E8A;
+	border-radius: 10px;
+	font: 0.8em 'Century Gothic', Verdana, Calibri, serif;
+}
+.mille .cell{
+width:5%
+border-collapse: collapse;
+}
+.milletab{
+width:1000px; 
+margin: 0 auto;
+position:relative; 
+height: auto;
+border: none;
+border-collapse:collapse;
+}
+.milletab .cel1, .milletab .cel3, .milletab .cel4, .milletab .cel6{
+width:300px;
+display: table-cell; /* comportement visuel de cellule */
+vertical-align: middle;
+border: none;
+}
+.milletab .cel2{
+border:0px solid;
+width:400px;
+margin-left:30%;
+}
+.milletab .cel5{
+border:0px solid;
+width:400px;
+text-align: center;
+}
+.milletabprog1, .milletabprog2, .milletabprog3{
+width: 1000px;
+margin: 0 auto;
+font: 1em 'Century Gothic', Verdana, Calibri, serif;
+border-collapse:collapse;
+}
+.milletabprog1 td{
+border: 1px;
+border-color: #333399;
+border-style: solid;
+font: 1em 'Century Gothic', Verdana, Calibri, serif;
+color: #333399;
+}
+.milletabprog2 td{
+border: 1px;
+border-color: #003300;
+border-style: solid;
+font: 1em 'Century Gothic', Verdana, Calibri, serif;
+color: #003300;
+}
+.milletabprog3 td{
+border: 1px;
+border-color: #550000;
+border-style: solid;
+font: 1em 'Century Gothic', Verdana, Calibri, serif;
+color: #550000;
+}
+@media screen and (max-width : 1000px){
+.mille, .milletab, .milletabprog1, .milletabprog2, .milletabprog3{
+width:100%;
+font: 0.9em 'Century Gothic', Verdana, Calibri, serif;
+}
+.mille img{
+width:100%;
+height:auto;
+}
+.milletab img{
+display:none;
+}
+.milletab .cel3, .milletab .cel5{
+display:none;
+}
+.milletab .cel2{
+width:70%;
+margin-left:0%;
+}
+.mille .cellule, .mille .cell{
+display:none;
+}
+}
+/******** HEADER ********/
+header{
+    width: 100%;
+}
+.header{
+    height:100px;
+    background-color: white;
+}
+@media screen and (max-width : 1000px){
+    .header img{
+	display:block;
+	margin: 0 auto;
+    }
+    .header h2, .header h3, .header h4, .header h5, .header h6, .header h7 {
+	display: none;
+    }
+}
+.header img{
+    padding: 2px 0px 2px 15px;
+    clear:both;
+}
+.header h2{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:-5px;
+	right:30px;
+	font-size:40px;
+	font-weight: normal;
+	color: #7B8FC5;
+}
+.header h3{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:10px;
+	right:30px;
+	font-weight: normal;
+	font-size:25px;
+	color: #000;
+}
+.header h4{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:2px;
+    right:30px;
+	font-weight: normal;
+    font-size:25px;
+	color: #ff6600;
+}
+.header h5{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:-6px;
+    right:30px;
+	font-weight: normal;
+    font-size:25px;
+	color: #009900;
+}
+.header h6{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:-22px;
+    right:30px;
+	font-weight: normal;
+    font-size:25px;
+	color: #e22;
+}
+.header h7{
+    font-family: 'Century Gothic', Verdana, Calibri, serif;
+    position: absolute;
+    top:36px;
+    right:30px;
+	font-weight: normal;
+    font-size:25px;
+	color: #03a;
+}
+/*********************************/
+/* petit menu horizontal jeux */
+/*********************************/
+			#nav {
+			    width: 100% ;
+				list-style: none ;
+				margin: 0 ;
+				padding: 0 ;
+			}
+			#nav li {
+				float: left ;
+				width: 110px ;
+				border-bottom: 1px solid #aaa ;
+				border-right: 1px solid #aaa ;
+				color: #000 ;
+				background-color: RGBa(230, 230, 230, 0.9);
+				}
+			#nav li a {
+				display: block ;
+				background-color: RGBa(230, 230, 230, 0.9);
+				color: #000 ;
+				font: 1em 'Century Gothic', Verdana, Calibri, serif;
+				line-height: 1em ;
+				padding: 4px 0 ;
+				text-align: center ;
+				text-decoration: none ;
+				}
+			#nav li a:hover, #nav li a:focus, #nav li a:active {
+				background-color: RGBa(130, 130, 130, 1);
+				color: #fff ;
+				}
+			#nav #activ a {
+				background-color: RGBa(138, 51, 225, 1);
+				color: #fff ;
+				}
+/********* MENU ********/
+nav{
+    z-index: 1000;
+    font-family: 'Century Gothic', 'Source code pro', Verdana, serif;
+    width: 100%;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+    background-color: RGBa(230, 230, 230, 0.9);
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both
+}
+nav li{
+    list-style-type: none;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav a{
+    display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+    padding: 20px 15px;
+	color: #000;
+}
+nav > ul > li:hover a{
+    padding: 15px 15px 20px 15px;
+    color: #FFF;
+}
+.accueil:hover{
+    border-top: 5px solid #647CD2;
+    background-color: RGBa(100, 124, 210, 0.55);
+}
+.gris:hover{
+    border-top: 5px solid #444;
+    background-color: RGBa(100, 100, 100, 0.55);
+}
+.orange:hover{
+    border-top: 5px solid #FFA500;
+    background-color: RGBa(255, 165, 00, 0.55);
+}
+.vert:hover{
+    border-top: 5px solid #090;
+    background-color: RGBa(0, 160, 40, 0.55);
+}
+
+.rouge:hover{
+    border-top: 5px solid #e22;
+    background-color: RGBa(228, 77, 38, 0.55);
+}
+
+.bleu:hover{
+    border-top: 5px solid #03B;
+    background-color: RGBa(0, 40, 160, 0.55);
+}
+.langue{
+float: right;
+}
+.langue:hover{
+float: right;
+    border-top: 5px solid #444;
+    background-color: RGBa(100, 100, 100, 0.55);
+}
+.menu-mobile{
+	color: #fff;
+    background-color: rgba(29, 197, 151, 0.97);
+	text-align: center;
+	padding: 12px 0;
+	display: none;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+@media screen and (max-width : 1000px){
+    .menu-mobile {
+	display:block;
+    }
+    nav ul{
+	display: none;
+    }
+    nav ul li, nav ul li a {
+	width: 100%;
+        text-align: center;
+    }
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px 10px 0px;
+    }
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+}
+.accueil#activ a:link, .accueil#activ a:visited{
+	border-top: 5px solid #647CD2;
+	padding: 15px 15px 20px 15px;
+	background-color: RGBa(100, 124, 210, 0.55);
+    color:#FFF;
+}
+.accueil#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0);
+}
+.gris#activ a:link, .gris#activ a:visited{
+	border-top: 5px solid #555;
+	padding: 15px 15px 20px 15px;
+	background-color: RGBa(100, 100, 100, 0.55);
+    color:#FFF;
+}
+.gris#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0);
+}
+.orange#activ a:link, .orange#activ a:visited{
+	border-top: 5px solid #FFA500;
+	padding: 15px 15px 20px 15px;
+	background-color: RGBa(255, 165, 00, 0.55);
+    color:#FFF;
+}
+.orange#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0);
+}
+.vert#activ a:link, .vert#activ a:visited{
+	padding: 15px 15px 20px 15px;
+	border-top: 5px solid #090;
+    background-color: RGBa(0, 160, 40, 0.55);
+    color:#FFF;
+}
+.vert#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0)
+}
+.rouge#activ a:link, .rouge#activ a:visited{
+	padding: 15px 15px 20px 15px;
+	border-top: 5px solid #e22;
+    background-color: RGBa(228, 77, 38, 0.55);
+    color:#FFF;
+}
+.rouge#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0)
+}
+.bleu#activ a:link, .bleu#activ a:visited{
+	padding: 15px 15px 20px 15px;
+	border-top: 5px solid #03B;
+    background-color: RGBa(0, 40, 160, 0.55);
+    color:#FFF;
+}
+.bleu#activ:hover{
+border-top: 0px;
+background-color: RGBa(100, 100, 100, 0)
+}

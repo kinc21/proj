@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    height: 385px;
+    text-align: center;
+}
+
+.animationContainer {
+	background-color: white;
+	display: inline-block;
+	width: 300px; height: 300px;
+	left: 62px;
+	margin-right: 123px;
+	position: relative;
+	vertical-align:top;
+}
+
+	.animationContainer > canvas {
+		height: 300px;
+		left: 0px;
+		position: absolute;
+		top: 0px;
+		width: 300px;
+	}
+
+.sliderContainer {
+	display: inline-block;
+	vertical-align:top;
+	width: 100px;
+}
+
+.sldr {
+	position: relative;	
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.sldrLabel {
+	margin-bottom: 3px;
+}
+
+.diagramLblContainer {
+	position: relative;
+	display: inline-block;
+	left: -468px; top: 0px;
+}
+
+.diagramTextBlack {
+	position: relative;
+}
+
+#refIndLbl1 {
+	left: 155px; top: 10px;
+}
+
+#medLbl1 {
+	top: 124px;
+}
+
+#refIndLbl2 {
+	top: 146px;
+}
+
+#medLbl2 {
+	top: 116px;
+}
+
+#refAngLbl {
+	left: 30px; top: 210px;
+}
+
+.controlBack {
+	height: 65px;
+}

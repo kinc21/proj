@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+body {
+    height: 600px;
+    text-align: center;
+}
+
+.controlBack{
+    padding-bottom: 5px;
+}
+
+.controlBack > * {
+    vertical-align: middle;
+}
+
+.controlPanelBack {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 12px;
+    height: 55px;
+}
+
+#slider {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    margin-top: 5px;
+}
+
+#lens {
+    position: absolute;
+    top: 78px;
+    left: 154px;
+    width: 39px;
+    height: 173px;
+}
+
+#drawLines {
+    position: absolute;
+    top: 85px;
+    left: 13px;
+    width: 309px;
+    height: 84px;
+    z-index: 2;
+}
+
+#largeArrowContainer {
+    position: absolute;
+    top: 85px;
+    z-index: 4;
+}
+
+#largeArrowHead {
+    position: absolute;
+    top: 1px;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #999999;
+}
+
+#largeArrowBody {
+    position: absolute;
+    background-color: #999999;
+    top: 11px;
+    left: 6px;
+    width: 8px;
+    height: 64px;
+}
+
+#smallArrowContainer {
+    position: absolute;
+    top: 140px;
+    left: 227px;
+    z-index: 4;
+}
+
+#smallArrowHead {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 1px;
+
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #999999;
+}
+
+#smallArrowBody {
+    position: absolute;
+    background-color: #999999;
+    top: 3px;
+    left: 3px;
+    width: 4px;
+    height: 18px;
+}
+
+
+.labelLine {
+    position: absolute;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    width: 2px;
+    height: 8px
+}
+
+#poleLine {
+    top: 169px;
+    left: 182px;
+    -ms-transform: rotate(135deg);
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform: rotate(135deg);
+    -webkit-transform-origin: 0% 0%;
+    transform: rotate(135deg);
+    transform-origin: 0% 0%;
+}
+
+#focalLine {
+    top: 165px;
+    left: 247px;
+}
+
+#curvatureLine {
+    top: 165px;
+    left: 316px;
+}
+
+#axisLine {
+    top: 161px;
+    left: 5px;
+    width: 355px;
+    height: 1px;
+    z-index: 3;
+}
+
+
+.labelText {
+    position: absolute;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#axisText {
+    top: 163px;
+    left: 41px;
+}
+
+#objectText {
+    top: 115px;
+}
+
+#poleText {
+    top: 170px;
+    left: 182px;
+}
+
+#mirrorText {
+    top: 215px;
+    left: 185px;
+}
+
+#focalText {
+    top: 171px;
+    left: 230px;
+}
+
+#FText {
+    top: 148px;
+    left: 252px;
+}
+
+#curvatureText {
+    top: 172px;
+    left: 286px;
+}
+
+#CText {
+    top: 148px;
+    left: 318px;
+}
+
+.pointCircle {
+    position: absolute;
+    padding: 2px 0px;
+    background: white;
+    width: 4px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+#poleCircle {
+    top: 159px;
+    left: 171px;
+}
+
+#focalCircle {
+    top: 159px;
+    left: 246px;
+}
+
+#curvatureCircle {
+    top: 159px;
+    left: 315px;
+}
